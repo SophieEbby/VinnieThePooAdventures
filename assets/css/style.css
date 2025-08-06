@@ -1,0 +1,10 @@
+/*Global rule for all elements*/
+* { 
+  box-sizing: border-box;
+}
+
+/*Custom Nav*/
+.customNav{
+  background-color: #F6E8D5 ;
+  height: 60px;
+}
