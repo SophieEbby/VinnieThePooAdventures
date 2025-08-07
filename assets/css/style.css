@@ -1,10 +1,85 @@
 /*Global rule for all elements*/
-* { 
-  box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
 
 /*Custom Nav*/
-.customNav{
-  background-color: #F6E8D5 ;
-  height: 60px;
+.customNav {
+    background-color: #F6E8D5;
+    height: 60px;
+}
+
+.navbar-brand {
+    color: #A67B5B;
+    /* Light brown, for example */
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.navbar-brand:hover {
+    color: #8B5E3C;
+    /* Slightly darker on hover */
+}
+
+.navbar-nav .nav-link {
+    background-color: #A67B5B;
+    /* Light brown example */
+    color: #F6E8D5;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-left: 8px;
+    /* Spacing between buttons */
+    transition: background-color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    background-color: #8B5E3C;
+    /* Darker brown on hover */
+    color: #F6E8D5;
+    text-decoration: none;
+}
+
+
+.dropdown-menu {
+    background-color: #F6E8D5;
+    /* your soft beige */
+    border: 2px solid #A67B5B;
+    /* light brown border for contrast */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(166, 123, 91, 0.3);
+    padding: 0.5rem 0;
+    min-width: 100px;
+}
+
+/* Dropdown items */
+.dropdown-menu .dropdown-item {
+    color: #4B3A2F;
+    /* warm brown text */
+    padding: 8px 20px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover and focus on dropdown items */
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+    background-color: #A67B5B;
+    /* light brown hover background */
+    color: #F6E8D5;
+    text-decoration: none;
+}
+
+/* Jumbotron  */
+.heroBackground {
+    height: calc(110vh - 25px);
+    background-color: #F6E8D5;
+    color: #A67B5B;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
