@@ -1,0 +1,16 @@
+h1, h2, p{
+    color: #A67B5B; /* consistent color for headings and paragraphs */;
+}
+/* Image grid */
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px; 
+  max-width: 1200px;
+  margin: auto;
+}
+.image-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
