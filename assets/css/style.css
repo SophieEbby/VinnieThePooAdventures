@@ -254,3 +254,17 @@ body {
 .icon{
   color:#A67B5B; 
 }
+
+/* Image grid for the about Us page */
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px; /* space between images */
+  max-width: 1200px;
+  margin: auto;
+}
+.image-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px; /* optional rounded corners */
+}
