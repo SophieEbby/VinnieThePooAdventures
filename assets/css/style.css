@@ -14,6 +14,14 @@ body {
     height: 60px;
 }
 
+.heroBackground h1,
+.heroBackground h2,
+.heroBackground h3,
+.custom-box h3 {
+  font-family: 'Playwrite AU QLD', sans-serif;
+}
+
+
 .navbar-brand {
     color: #A67B5B;
     /* Light brown, for example */
@@ -256,3 +264,139 @@ body {
   color:#A67B5B; 
 }
 
+/* About Us Page Styling */
+.about-section,
+.journey-section {
+  background-color: #fffaf0;
+  padding: 50px 20px;
+  margin: 40px auto;
+  border-radius: 12px;
+  max-width: 1100px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.about-title,
+.journey-title {
+  color: #A67B5B;
+  font-family: 'Playwrite AU QLD', sans-serif;
+  margin-bottom: 20px;
+}
+
+.about-intro {
+  font-size: 1.2rem;
+  color: #4B3A2F;
+  margin-bottom: 30px;
+}
+
+.about-main-img {
+  max-width: 350px;
+  border-radius: 50%;
+  border: 6px solid #A67B5B;
+  margin-bottom: 20px;
+}
+
+.about-section p,
+.journey-section p {
+  color: #4B3A2F;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.image-gallery img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.image-gallery img:hover {
+  transform: scale(1.05);
+}
+
+.about-section a,
+.journey-section a {
+  color: #A67B5B;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.about-section a:hover,
+.journey-section a:hover {
+  color: #8B5E3C;
+  text-decoration: underline;
+}
+
+
+/* Tips & Tricks Section */
+.tips-tricks-section {
+  background-color: #fffaf0; /* light cream */
+  padding: 40px 20px;
+  border-radius: 12px;
+  max-width: 1000px;
+  margin: 40px auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  color: #4B3A2F;
+}
+
+.tips-tricks-section .section-title {
+  color: #A67B5B;
+  font-family: 'Playwrite AU QLD', sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tips-tricks-section .section-intro {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.tips-container h2,
+.tricks-container h2 {
+  color: #A67B5B;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.tips-list,
+.tricks-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.tips-list li,
+.tricks-list li {
+  background-color: #F6E8D5;
+  border-left: 6px solid #A67B5B;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.tips-list li:hover,
+.tricks-list li:hover {
+  transform: scale(1.02);
+  background-color: #f0dcc2;
+}
+
+.tips-list a,
+.tricks-list a {
+  color: #A67B5B;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.tips-list a:hover,
+.tricks-list a:hover {
+  color: #8B5E3C;
+  text-decoration: underline;
+}
